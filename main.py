@@ -2,24 +2,24 @@ import pyautogui
 import webbrowser
 import random
 
-roleta = random.randint(1, 6)
+roullet = random.randint(1, 6)
 
-# Desenho
-print('=========  SEU RESULTADO =========')
-print(roleta)
+# Desing
+print('=========  YOUR RESULT =========')
+print(roullet)
 
-# Verifica o resultado da roleta
-if roleta == 6:
-    print('OK, agora diga adeus a sua dignidade.')
+# Check the roulette result
+if roullet == 6:
+    print('OK, now say goodbye to your dignity.')
 
-    # Abre um navegador da web e faz uma pesquisa
+    # put a link to something they should search for
     webbrowser.open('https://github.com/fkcoffe')
 
-    # Aguarda um curto período de tempo para a página carregar
+    # Wait a short period of time for the page to load
     pyautogui.PAUSE = 3
 
 
 
-# Desenho
+# Desing
 print('=========================================')
 
